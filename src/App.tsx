@@ -3,10 +3,10 @@ import './App.css';
 
 
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      hoi
+      <span className='heading'> Press-X </span> 
     </div>
   );
 }
